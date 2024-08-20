@@ -87,6 +87,7 @@ ul{
 
 .slither-frame img {
     width: 100%;
+	border-radius: 1%;
     /*height: 1000px;*/
 }
 
@@ -118,9 +119,13 @@ ul{
 
 #nosotros h1 {
     font-size: 75px;
-    color: rgb(63, 63, 63);
+    /*color: rgb(63, 63, 63);*/
     text-shadow: 2px 2px 5px rgb(255, 202, 202);
 
+}
+
+#nosotros h2{
+	color: white;
 }
 
 #nosotros img {
@@ -134,6 +139,7 @@ ul{
 /* SERVICIOS */
 #servicios h3{
 	font-family: FjallaOne-Regular;
+	color: white;
 }
 
 #servicios img{
@@ -144,6 +150,7 @@ ul{
 
 #servicios p{
 	text-align: justify;
+	color: gray;
 }
 
 #servicios a{
@@ -160,6 +167,7 @@ ul{
 	font-family: FjallaOne-Regular;
 	text-align: center;
 	font-size: 42px;
+	color: #735F32;
 }
 
 #galeria .col-lg-4{
@@ -174,7 +182,7 @@ ul{
 
 #galeria img:hover{
 	transform: scale(1.02);
-    filter: saturate(140%);
+    filter: saturate(120%);
 }
 
 #galeria video{
@@ -194,28 +202,68 @@ ul{
 #testimonios h3{
 	font-family: FjallaOne-Regular;
 	font-size: 42px;
+	color: #735F32;
+}
+
+#testimonios h5{
+	color: white;
 }
 
 #testimonios h6{
-	color: #000000;
+	color: #735F32;
+}
+
+#testimonios p{
+	color: #7c7e80;
 }
 
 /* CONTACTO */
+#contacto .mb-4{
+	color: #7c7e80;
+}
+
+#contacto .h1{
+	font-family: FjallaOne-Regular;
+	color: #735F32;
+	font-size: 42px;
+}
+
 #contacto h2{
 	font-family: FjallaOne-Regular;
 	text-align: center;
 	font-size: 42px;
 }
 
+p.mb-4.text-muted{
+	color: white;
+}
+
 .btn-primary{
     background-color: #ED1C24;
 }
 
+.form-floating label{
+	color: #ebe1e1;
+}
+
 /* PIE DE PÁGINA */
 
-footer p{
-	text-align: center;
+.separador{
 	color: white;
+	width: 90%;
+	margin: auto;
+}
+
+footer{
+	padding: 0;
+}
+
+.nav-item a{
+	color: white;
+}
+
+.nav-item a:hover{
+	color: #735F32;
 }
 
 
@@ -237,7 +285,7 @@ footer p{
 		position: absolute;
 		top: 0;
 		left: 0;
-		background: #ED1C24;
+		background: #0e0d0d;
 		height: 100%;
 		padding: 30px;
 		opacity: .9;
